@@ -1,0 +1,10 @@
+{
+  "title": "ARDI",
+  "short": "Augmented reality outdoor game",
+  "images": ["/images/taffy.jpg"],
+  "long": "Location-aware adventure game using AR, built in React Native. Users book, play, and explore in real time.",
+  "button1": "Play Game",
+  "button1Link": "google.com",
+  "button2Link": "google.com",
+  "button2": "View Project"
+}
