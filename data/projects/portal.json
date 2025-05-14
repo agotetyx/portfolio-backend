@@ -1,0 +1,10 @@
+{
+  "title": "Portal Defender",
+  "short": "Fast-paced 2D sci-fi action game",
+  "images": ["/images/portaldefender.jpg"],
+  "long": "A Unity-powered arcade game where players defend dimensional rifts from waves of enemies. Features custom enemy AI, power-ups, and parallax-scrolling backgrounds. Designed with retro-style HUDs and tight game loop mechanics optimized for moment-to-moment action.",
+  "button1": "Play Game",
+  "button1Link": "http://localhost:3001/portal-build/index.html",
+  "button2Link": "http://localhost:3001/pages/portal.html",
+  "button2": "Learn More"
+}
