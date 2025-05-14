@@ -4,7 +4,7 @@
   "images": ["/images/portaldefender.jpg"],
   "long": "A Unity-powered arcade game where players defend dimensional rifts from waves of enemies. Features custom enemy AI, power-ups, and parallax-scrolling backgrounds. Designed with retro-style HUDs and tight game loop mechanics optimized for moment-to-moment action.",
   "button1": "Play Game",
-  "button1Link": "http://localhost:3001/portal-build/index.html",
-  "button2Link": "http://localhost:3001/pages/portal.html",
+  "button1Link": "https://portfolio-backend-huz3.onrender.com/portal-build/index.html",
+  "button2Link": "https://portfolio-backend-huz3.onrender.com/pages/portal.html",
   "button2": "Learn More"
 }
