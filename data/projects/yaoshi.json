@@ -1,7 +1,7 @@
 {
   "title": "Yaoshi",
   "short": "Atmospheric puzzle-platformer",
-  "images": ["https://portfolio-backend-huz3.onrender.com/images/yaoshiCinematography.jpg"],
+  "images": ["https://portfolio-backend-huz3.onrender.com/images/yaoshi.gif"],
   "long": "A hand-crafted 2D platformer inspired by Eastern mythology. Built in Unity with an emphasis on mood, exploration, and spatial puzzles. Players journey through ancient temples and shifting landscapes, unlocking gates with keys that echo the game’s name—‘钥匙’ meaning ‘key’ in Chinese.",
   "button1": "Play Level",
   "button1Link": "https://portfolio-backend-huz3.onrender.com/yaoshi-build/index.html",
