@@ -1,8 +1,13 @@
 {
   "title": "Erin and the Otherworld",
-  "short": "A fantasy narrative platformer",
+  "short": "In this turn-based casual strategy deckbuilder defeat ancient Celtic monsters as a druid by creating constellations. Power up your altar and learn more rituals to save your homeland.",
   "images": ["https://portfolio-backend-huz3.onrender.com/images/erin.jpg"],
-  "long": "A 2D narrative-driven platformer created in Unity. Features custom dialogue systems, interactive cutscenes, and cinematic pixel art environments. Explore an enchanted realm through Erin’s eyes and uncover the secrets of the Otherworld.",
+  "long": [
+  "Led UI systems development for a cross-platform narrative game built in Unity, collaborating with artists and designers to maintain visual consistency",
+  "Designed and implemented responsive menus, HUDs, and interaction systems optimized for both desktop and mobile platforms",
+  "Integrated audio-visual feedback, tutorial flows, and accessibility features to enhance user experience and engagement",
+  "Contributed to team-wide code architecture and QA, reducing UI-related bugs and streamlining iteration cycles"
+],
   "button1": "Play Game",
   "button1Link": "https://google.com",
   "button2Link": "https://portfolio-backend-huz3.onrender.com/pages/erin.html",
