@@ -1,4 +1,3 @@
-<!-- Portal Defender -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portal Defender</title>
   <style>
-    body { margin: 0; font-family: sans-serif; background-color: #0d0d0d; color: #f2f2f2; padding: 2rem; line-height: 1.6; }
-    header { font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem; }
-    .subtitle { font-size: 1.25rem; opacity: 0.8; margin-bottom: 2rem; }
-    .content { max-width: 800px; }
-    a { color: #88ccff; }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    header {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      opacity: 0.8;
+      margin-bottom: 2rem;
+    }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    a {
+      color: #88ccff;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-bottom: 2rem;
+    }
+    img {
+      width: 100%;
+      margin-top: 10px;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
   </style>
 </head>
 <body>
@@ -21,30 +53,32 @@
 
     <p>This was a solo project built from scratch using Unity and online assets. Core mechanics were created using Euler calculations, with animations triggered by collision events. Enemies and powerups spawn randomly throughout the map. I also built the UI system displaying player information.</p>
 
+    <iframe src="https://portfolio-backend-huz3.onrender.com/portal-build/index.html"></iframe>
+
     <h2>Rotational Mechanics & Player Controller</h2>
     <ul>
-      <li>
-        <strong>Designed and implemented the core gameplay loop</strong> using Euler-based rotational and gravity calculations.
+      <li><strong>Designed and implemented the core gameplay loop</strong> using Euler-based rotational and gravity calculations.
         <ul>
           <li>Created a gravity-based navigation system that simulates orbital pull toward a central black hole.</li>
           <li>Mapped vertical input to radius control and horizontal input to angle rotation using polar coordinates.</li>
           <li>Added inverse-square gravity scaling for realistic orbital decay.</li>
           <li>Used position clamping and angle normalization for smooth, controlled gameplay.</li>
         </ul>
+        <img src="portalPlayerMovement.jpg" alt="Player Movement">
       </li>
     </ul>
 
     <h2>Enemy AI Programming</h2>
     <ul>
-      <li>
-        <strong>Built a procedural enemy spawning system</strong> with dynamic difficulty and three enemy archetypes:
+      <li><strong>Built a procedural enemy spawning system</strong> with dynamic difficulty and three enemy archetypes:
         <ul>
-          <li><strong>Asteroid</strong>: Passive obstacle with randomized spawn behavior.</li>
-          <li><strong>Shooter</strong>: Stationary enemy forming a defensive ring and firing projectiles.</li>
-          <li><strong>Follower</strong>: Homing enemy using vector math and rotation tracking to pursue player.</li>
+          <li><strong>Asteroid:</strong> Passive obstacle with randomized spawn behavior.</li>
+          <li><strong>Shooter:</strong> Stationary enemy forming a defensive ring and firing projectiles.</li>
+          <li><strong>Follower:</strong> Homing enemy using vector math and rotation tracking to pursue player.</li>
         </ul>
         <li>Used random spawn coordinates and timers to ensure varied, unpredictable encounters.</li>
         <li>Implemented shooter AI that halts within radius and reverses bullet direction.</li>
+        <img src="portalEnemySpawn.jpg" alt="Enemy Spawn">
       </li>
     </ul>
 
@@ -53,6 +87,7 @@
       <li>Implemented a dynamic screen shake effect using the Observer pattern.</li>
       <li>Triggered shake on player damage through a static event channel.</li>
       <li>Used tweening on camera position and rotation to achieve responsive shake feedback.</li>
+      <img src="portalCamera.jpg" alt="Camera Shake">
     </ul>
 
     <h2>Particle Animation & UI/UX Programming</h2>
