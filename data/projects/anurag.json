@@ -2,7 +2,15 @@
   "title": "Anurag Gotety",
   "short": "I am a Full-stack engineer with a passion for UI/UX, AR gaming, and creative tech. I build immersive, performant apps blending design, systems thinking, and real-world interactivity.",
   "images": ["https://portfolio-backend-huz3.onrender.com/images/anurag.jpg"],
-  "long": "I'm a full-stack software engineer with a background in game programming and film production. I build immersive, UI-rich experiences at the intersection of design, storytelling, and interactivity. From React Native AR games to cinematic 3D portfolios, my work blends technical depth with creative expression. I’m especially drawn to startups pushing boundaries in XR, AI tools, and frontier tech.",
+  "long": [
+  "Built ARDI, a React Native adventure game blending treasure hunts, escape rooms, and geocaching, with Stripe integration and Google Sign-In",
+  "Designed immersive AR gameplay with ViroReact, including real-time object tracking and interactive 3D challenges",
+  "Engineered performant frontends with React Hooks, Context API, lazy loading, and modular UI components",
+  "Created UI systems and menus for Unity games like 'Portal Defender' and 'Erin and the Otherworld'",
+  "Developed full-stack web apps using Django, Express.js, and MongoDB—featuring real-time UI, authentication, and clean UX",
+  "Prototyped CNN models with TensorFlow to classify images and explore computer vision for real-world use cases",
+  "Skilled in JavaScript, Python, C#, SQL, TypeScript, and GLSL—across web, mobile, and game dev platforms"
+],
   "button1": "Contact Me",
   "button2": "Download Resume",
   "button2Link": "https://portfolio-backend-huz3.onrender.com/resume/resume.pdf"
