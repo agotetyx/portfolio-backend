@@ -1,0 +1,78 @@
+{
+  "bio": "Anurag Gotety is a full-stack engineer and creative technologist focused on immersive UI, AR gameplay, and system-driven design. He builds performance-optimized React Native apps and interactive game systems.",
+  "education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "Indiana University",
+      "focus": "Game Programming",
+      "year": "2024"
+    },
+    {
+      "degree": "B.A. in Film and Digital Production",
+      "institution": "IU Media School",
+      "focus": "Narrative Filmmaking",
+      "year": "2024"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full-Stack Developer",
+      "company": "ARDI Global LLC",
+      "year": "2024\u2013Present",
+      "summary": "Built a React Native-based AR adventure game platform for location-aware quests and team events. Integrated Google Sign-In, Stripe, real-time UI, and immersive 3D elements."
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Innovative Animation",
+      "year": "2022",
+      "summary": "Created interactive visual systems and shaders for 3D animation using HLSL and Maya."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portal Defender",
+      "tech": [
+        "Unity",
+        "C#",
+        "Physics"
+      ],
+      "summary": "2D space shooter using real-time black hole gravity simulations and dynamic enemy AI."
+    },
+    {
+      "title": "Erin and the Otherworld",
+      "tech": [
+        "Unity",
+        "UI/UX",
+        "Audio"
+      ],
+      "summary": "Capstone project with narrative puzzle design, UI systems, and accessibility-focused menu structure."
+    },
+    {
+      "title": "CampusVision",
+      "tech": [
+        "TensorFlow",
+        "CNNs"
+      ],
+      "summary": "Classifies images using deep learning to detect features of IU campus or wildlife."
+    }
+  ],
+  "skills": {
+    "languages": [
+      "JavaScript",
+      "Python",
+      "C#",
+      "Java"
+    ],
+    "frameworks": [
+      "React Native",
+      "Django",
+      "Express.js"
+    ],
+    "tools": [
+      "Unity",
+      "TensorFlow",
+      "MongoDB",
+      "ViroReact"
+    ]
+  }
+}
