@@ -43,6 +43,32 @@ app.get('/api/meta', (req, res) => {
   });
 });
 
+app.get('/api/context', (req, res) => {
+  const projectDir = path.join(__dirname, 'data/projects');
+  const files = fs.readdirSync(projectDir);
+  const projects = files.map(file => {
+    const data = fs.readFileSync(path.join(projectDir, file), 'utf8');
+    return JSON.parse(data);
+  });
+
+  const context = {
+    name: "Anurag Gotety",
+    role: "Full-Stack Engineer",
+    skills: [
+      "React Native", "Three.js", "Node.js", "TensorFlow", "MongoDB",
+      "Unity", "C#", "UI/UX", "Express.js", "Django", "AWS"
+    ],
+    projects: projects.map(p => ({
+      title: p.title,
+      description: p.short || '',
+      long: p.long || ''
+    }))
+  };
+
+  res.json(context);
+});
+
+
 app.listen(PORT, () => {
   console.log(`✅ Backend running at http://localhost:${PORT}`);
 });
