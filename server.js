@@ -2,7 +2,9 @@ require('dotenv').config(); // Load .env
 
 const OpenAI = require('openai'); // ✅ Correct import for v4
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY // ✅ Uses .env securely
+  apiKey: process.env.OPENAI_API_KEY, // ✅ Uses .env securely
+   project: process.env.OPENAI_PROJECT_ID,
+  organization: process.env.OPENAI_ORG_ID,
 });
 
 const express = require('express');
