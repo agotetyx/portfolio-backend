@@ -95,9 +95,9 @@ app.post('/api/chat', async (req, res) => {
 });
 
   } catch (err) {
-    console.error("❌ OpenAI error:", err.message);
-    res.status(500).json({ error: "OpenAI API error" });
-  }
+  console.error("❌ OpenAI error:", err.response?.data || err.message || err);
+  res.status(500).json({ error: "OpenAI API error", detail: err.response?.data || err.message });
+}
 });
 
 app.listen(PORT, () => {
