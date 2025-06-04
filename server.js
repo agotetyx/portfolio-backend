@@ -1,5 +1,5 @@
 require('dotenv').config(); // Load .env
-import OpenAI from "openai";
+
 
 const OpenAI = require('openai'); // ✅ Correct import for v4
 const openai = new OpenAI({
@@ -88,7 +88,11 @@ app.post('/api/chat', async (req, res) => {
     const completion = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
       messages: [
-        { role: "system", content: "You are a helpful AI assistant for a developer portfolio website." },
+        { role: "system", content: `You are Anurag Gotety’s personal AI agent, embedded into his portfolio site. Your purpose is to answer questions about his projects, skills, resume, and work experience. 
+You are technically fluent, clear, and helpful. Assume the user is a recruiter, collaborator, or hiring manager.
+Avoid fluff or vague answers. If the question isn't related to Anurag’s work, politely say it's out of scope. 
+If a project name is mentioned, focus your answer on that project's purpose, tech stack, and Anurag’s role.`
+},
         { role: "user", content: message }
       ]
     });
