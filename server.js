@@ -1,4 +1,5 @@
 require('dotenv').config(); // Load .env
+import OpenAI from "openai";
 
 const OpenAI = require('openai'); // ✅ Correct import for v4
 const openai = new OpenAI({
