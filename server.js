@@ -85,6 +85,12 @@ app.post('/api/chat', async (req, res) => {
   const { message } = req.body;
 
   try {
+    console.log("🧠 Incoming chat request:");
+console.log("🔐 API Key (truncated):", process.env.OPENAI_API_KEY?.slice(0, 8) + "...");
+console.log("🏗️  Project ID:", process.env.OPENAI_PROJECT_ID);
+console.log("🏢 Org ID:", process.env.OPENAI_ORG_ID);
+console.log("📨 Message:", message);
+
     const completion = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
       messages: [
